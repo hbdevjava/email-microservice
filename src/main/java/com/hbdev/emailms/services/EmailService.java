@@ -19,6 +19,7 @@ public class EmailService {
 	EmailRepository emailRepository;
 
 	@Autowired
+
 	private JavaMailSender javaMailSender;
 
 	@SuppressWarnings("finally")

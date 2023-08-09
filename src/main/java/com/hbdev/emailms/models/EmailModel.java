@@ -2,6 +2,7 @@ package com.hbdev.emailms.models;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.UUID;
 
 import com.hbdev.emailms.enums.StatusEmail;
 
@@ -11,7 +12,6 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import lombok.AllArgsConstructor;
 import lombok.Data;
 @Entity
 @Data
@@ -23,7 +23,7 @@ public class EmailModel implements Serializable {
 	private static final long serialVersionUID = 1L;
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long emailId;
+	private UUID emailId;
 	private String ownertRef;//-> REFERENCIA DO PROPRIETARIO QUE ESTA ENVIANDO ESSA MSG
 	private String emailFrom;//-> QUEM ESTA MANDANDO ESSE EMAIL
 	private String emailTo;//-> PARA QUEM SERA ENVIADO ESSE EMAIL
