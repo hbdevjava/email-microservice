@@ -1,0 +1,101 @@
+2023-08-10T01:23:51,615 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023-08-10T01:23:51,659 INFO  com.hbdev.emailms.EmailMsApplication - Starting EmailMsApplication using Java 17.0.2 with PID 7296 (C:\Users\55859\Documents\my-workspace\email-ms\email-ms\target\classes started by 55859 in C:\Users\55859\Documents\my-workspace\email-ms\email-ms)
+2023-08-10T01:23:51,662 DEBUG com.hbdev.emailms.EmailMsApplication - Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-08-10T01:23:51,663 INFO  com.hbdev.emailms.EmailMsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-10T01:23:52,663 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-10T01:23:52,731 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+2023-08-10T01:23:53,282 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-10T01:23:53,293 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-10T01:23:53,296 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-10T01:23:53,296 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-10T01:23:53,397 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-10T01:23:53,397 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1672 ms
+2023-08-10T01:23:53,568 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-10T01:23:53,621 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-10T01:23:53,624 INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2023-08-10T01:23:53,761 INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-08-10T01:23:53,895 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-10T01:23:53,914 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-08-10T01:23:54,125 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@312f3050
+2023-08-10T01:23:54,127 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-10T01:23:54,457 INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-08-10T01:23:55,259 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-10T01:23:55,326 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10T01:23:55,658 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-10T01:23:56,226 WARN  org.springframework.core.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-08-10T01:23:56,277 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-10T01:23:56,310 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-10T01:23:56,313 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [shark.rmq.cloudamqp.com:5671]
+2023-08-10T01:23:57,131 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#3d5e3f58:0/SimpleConnection@1deca369 [delegate=amqp://phuzefom@34.225.181.11:5671/phuzefom, localPort=51986]
+2023-08-10T01:23:57,726 INFO  com.hbdev.emailms.EmailMsApplication - Started EmailMsApplication in 6.66 seconds (process running for 7.883)
+2023-08-10T01:24:09,489 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-10T01:24:09,490 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-10T01:24:09,492 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-08-10T01:24:09,565 TRACE com.hbdev.emailms.controllers.EmailController - TRACE
+2023-08-10T01:24:09,565 DEBUG com.hbdev.emailms.controllers.EmailController - DEBUG
+2023-08-10T01:24:09,566 INFO  com.hbdev.emailms.controllers.EmailController - INFO
+2023-08-10T01:24:09,566 WARN  com.hbdev.emailms.controllers.EmailController - WARN
+2023-08-10T01:24:09,566 ERROR com.hbdev.emailms.controllers.EmailController - ERROR
+2023-08-10T01:24:09,566 FATAL com.hbdev.emailms.controllers.EmailController - FATAL
+2023-08-10T01:25:27,630 TRACE com.hbdev.emailms.controllers.EmailController - TRACE
+2023-08-10T01:25:27,630 DEBUG com.hbdev.emailms.controllers.EmailController - DEBUG
+2023-08-10T01:25:27,630 INFO  com.hbdev.emailms.controllers.EmailController - INFO
+2023-08-10T01:25:27,630 WARN  com.hbdev.emailms.controllers.EmailController - WARN
+2023-08-10T01:25:27,631 ERROR com.hbdev.emailms.controllers.EmailController - ERROR
+2023-08-10T01:25:27,631 FATAL com.hbdev.emailms.controllers.EmailController - FATAL
+2023-08-10T01:25:29,439 TRACE com.hbdev.emailms.controllers.EmailController - TRACE
+2023-08-10T01:25:29,439 DEBUG com.hbdev.emailms.controllers.EmailController - DEBUG
+2023-08-10T01:25:29,439 INFO  com.hbdev.emailms.controllers.EmailController - INFO
+2023-08-10T01:25:29,440 WARN  com.hbdev.emailms.controllers.EmailController - WARN
+2023-08-10T01:25:29,440 ERROR com.hbdev.emailms.controllers.EmailController - ERROR
+2023-08-10T01:25:29,440 FATAL com.hbdev.emailms.controllers.EmailController - FATAL
+2023-08-10T01:26:43,954 INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-08-10T01:26:44,048 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2023-08-10T01:26:44,519 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2023-08-10T01:26:44,536 INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-08-10T01:26:44,537 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-08-10T01:26:44,539 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-10T01:26:44,552 INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-08-10T01:26:44,554 INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-08-10T01:26:44,650 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10T01:26:44,655 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-08-10T01:26:44,661 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-08-10T01:37:48,980 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023-08-10T01:37:49,028 INFO  com.hbdev.emailms.EmailMsApplication - Starting EmailMsApplication using Java 17.0.2 with PID 10108 (C:\Users\55859\Documents\my-workspace\email-ms\email-ms\target\classes started by 55859 in C:\Users\55859\Documents\my-workspace\email-ms\email-ms)
+2023-08-10T01:37:49,032 DEBUG com.hbdev.emailms.EmailMsApplication - Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-08-10T01:37:49,033 INFO  com.hbdev.emailms.EmailMsApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-10T01:37:49,981 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-10T01:37:50,033 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2023-08-10T01:37:50,562 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-10T01:37:50,575 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-10T01:37:50,576 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-10T01:37:50,577 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-10T01:37:50,692 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-10T01:37:50,693 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1603 ms
+2023-08-10T01:37:50,867 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-10T01:37:50,932 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-10T01:37:50,935 INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2023-08-10T01:37:51,090 INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-08-10T01:37:51,240 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-10T01:37:51,258 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-08-10T01:37:51,457 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@126675fd
+2023-08-10T01:37:51,459 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-10T01:37:51,795 INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-08-10T01:37:52,518 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-10T01:37:52,586 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10T01:37:52,890 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-10T01:37:53,427 WARN  org.springframework.core.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-08-10T01:37:53,466 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-10T01:37:53,490 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-10T01:37:53,494 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [shark.rmq.cloudamqp.com:5671]
+2023-08-10T01:37:54,500 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1237aa73:0/SimpleConnection@56ece9c [delegate=amqp://phuzefom@34.225.181.11:5671/phuzefom, localPort=53230]
+2023-08-10T01:37:55,099 INFO  com.hbdev.emailms.EmailMsApplication - Started EmailMsApplication in 6.567 seconds (process running for 7.448)
+2023-08-10T01:38:20,181 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-10T01:38:20,181 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-10T01:38:20,182 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-08-10T01:38:20,235 TRACE com.hbdev.emailms.controllers.EmailController - TRACE
+2023-08-10T01:38:20,235 DEBUG com.hbdev.emailms.controllers.EmailController - DEBUG
+2023-08-10T01:38:20,235 INFO  com.hbdev.emailms.controllers.EmailController - INFO
+2023-08-10T01:38:20,236 WARN  com.hbdev.emailms.controllers.EmailController - WARN
+2023-08-10T01:38:20,236 ERROR com.hbdev.emailms.controllers.EmailController - ERROR
+2023-08-10T01:38:20,236 FATAL com.hbdev.emailms.controllers.EmailController - FATAL

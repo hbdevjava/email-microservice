@@ -13,7 +13,7 @@ import com.hbdev.emailms.services.EmailService;
 //CLASSE QUE VAI FICAR ESCUTANDO A FILA 
 
 @Component
-public class EmailConsumer {
+public class EmailConsumer {//-> SOLICITAÇÕES VIA MENSAGERIA
 	
 	@Autowired
 	EmailService emailService;
@@ -21,10 +21,7 @@ public class EmailConsumer {
 	//METODO QUE VAI FICAR ESCUTANDO A FILA (OUVINTE)
 	 @RabbitListener(queues = "${spring.rabbitmq.queue}")//-> spring.rabbitmq.queue=ms.email DEFINIDA NO ARQUIVO PROPERTIES
 	 public void listen(@Payload EmailDTO emailDto) {
-	        EmailModel emailModel = new EmailModel();
-	        BeanUtils.copyProperties(emailDto, emailModel);
-	        emailService.sendEmail(emailModel);
-	        System.out.println("Email Status: " + emailModel.getStatusEmail().toString());
+		 emailService.sendEmail(emailDto.convertToEmailModel());	
 	    }
 	//QUEM NAO FOI DEFIDO NENHUM EXCHANGE ENTAO ELE USA EXCHANGE DEFAULT
 }

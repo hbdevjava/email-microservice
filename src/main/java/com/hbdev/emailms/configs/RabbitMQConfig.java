@@ -9,17 +9,17 @@ import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
 @Configuration // -> UM BEAN DE CONFIGURAÇÃO
 public class RabbitMQConfig {
 
-	@Value("${spring.rabbitmq.queue}")
-	private String queue;
+	 @Value("${spring.rabbitmq.queue}")
+	    private String queue;
 
-	@Bean
-	public Queue queue() {
-		return new Queue(queue, true);
-	}
+	    @Bean
+	    public Queue queue() {
+	        return new Queue(queue, true);
+	    }
 
-	@Bean
-	public Jackson2JsonMessageConverter messageConverter() {
-		return new Jackson2JsonMessageConverter();
-	}
+	    @Bean
+	    public Jackson2JsonMessageConverter messageConverter() {
+	        return new Jackson2JsonMessageConverter();
+	    }
 
 }
